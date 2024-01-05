@@ -1,0 +1,15 @@
+.add-todo-form button {
+  height: 40px;
+  /* background-color: #02b31a !important;
+  border-color: #02b31a !important; */
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.add-todo-form input.task {
+  text-align: start;
+  width: 400px;
+  height: 40px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
