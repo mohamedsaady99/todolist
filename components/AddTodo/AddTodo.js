@@ -20,7 +20,6 @@ function AddTodo() {
       id: nanoid(),
       name: e.target.value,
       completed: false,
-
     })
   }
 

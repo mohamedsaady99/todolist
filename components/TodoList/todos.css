@@ -15,3 +15,8 @@ ul li {
   color: red;
   font-size: 18px;
 }
+
+.completed {
+  text-decoration: line-through;
+  color: grey;
+}
