@@ -1,0 +1,16 @@
+
+.edit-todo-button {
+    height: 30px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    box-shadow: none;
+  }
+  
+  .edit-todo-input{
+    text-align: start;
+    width: 380px;
+    height: 30px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  
