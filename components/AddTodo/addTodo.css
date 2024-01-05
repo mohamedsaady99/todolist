@@ -1,7 +1,5 @@
 .add-todo-form button {
   height: 40px;
-  /* background-color: #02b31a !important;
-  border-color: #02b31a !important; */
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
 }

@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Form, Input, Button } from 'antd';
+import { Form, Input, Space, Button } from 'antd';
 import { addTodo } from '../Todo/todoSlice'
 import { useDispatch } from 'react-redux';
 import { nanoid } from '@reduxjs/toolkit';
@@ -8,7 +8,7 @@ import './addTodo.css'
 function AddTodo() {
   const dispatch = useDispatch()
   const [todo, setTodo] = useState({
-    id: 1,
+    id: nanoid(),
     name: '',
     completed: false,
 
@@ -38,7 +38,7 @@ function AddTodo() {
         onFinish={onFinish}
         autoComplete="on"
       >
-        <Input.Group compact>
+        <Space.Compact>
           <Form.Item
             name="task"
             rules={[
@@ -60,7 +60,7 @@ function AddTodo() {
               Add Task
             </Button>
           </Form.Item>
-        </Input.Group>
+        </Space.Compact>
       </Form>
     </div>
   );
